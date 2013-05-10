@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE event-handler
+
+        PUBLIC "-//VA Software, Inc.//DTD Data Object 1.1//EN"
+
+        "http://schema.vasoftware.com/sf/dtd/sf-event-handler_1_0.dtd">
+
+<event-handler>
+
+    <event api="5.4" mode="asynchronous">
+
+        <type>artifact</type>
+
+        <operation>*</operation>
+
+        <handler>com.vasoftware.sf.plugin.AsynchEventEmitter</handler>
+
+    </event>
+
+</event-handler>
